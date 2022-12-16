@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(223, 158, 38);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.center h1{
+    text-align: center;
+    color: rgb(223, 158, 38);
+    padding-bottom: 20px;
+    border-bottom: 1px solid silver;
+    font-size: 40px;
+}
+
+.form{
+    padding-bottom: 15px;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.textfield{
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin: 7px;
+    border: 1px solid silver;
+    outline-color: rgb(223, 158, 38);
+}
+
+.btn{
+    width: 25%;
+    height: 35px;
+    background-color: rgb(51, 101, 218);
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    margin: 7px 0;
+    border: 0;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(223, 158, 38);
+    transition: ease 0.5s;
+}
+
+.forgotpass{
+    font-size: 16px;
+    padding: 4px 0;
+    margin: 3px;
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(59, 116, 221);
+}
+
